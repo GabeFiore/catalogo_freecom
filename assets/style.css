@@ -121,7 +121,7 @@ button, input, select { font-family: inherit; }
 
 .brand .meta {
   font-family: var(--font-mono);
-  font-size: 13px;
+  font-size: 12px;
   color: var(--muted);
 }
 
@@ -131,7 +131,7 @@ button, input, select { font-family: inherit; }
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 5px;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 600;
 }
 
@@ -228,28 +228,6 @@ button, input, select { font-family: inherit; }
 
 .clear-btn.visible { display: block; }
 .clear-btn:hover { color: var(--danger); }
-
-select#sort {
-  border: 1.5px solid var(--line);
-  background: var(--card);
-  color: var(--ink);
-  padding: 0 34px 0 14px;
-  height: 44px;
-  font-size: 14px;
-  border-radius: 8px;
-  cursor: pointer;
-  appearance: none;
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23454D49' stroke-width='1.5' fill='none' fill-rule='evenodd'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 14px center;
-  min-width: 0;
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-select#sort:focus { border-color: var(--glass); outline: none; }
 
 /* ---------- Filtros (grupo / subgrupo / promo) ---------- */
 
@@ -480,40 +458,36 @@ select#sort:focus { border-color: var(--glass); outline: none; }
   margin-top: auto;
   display: flex;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 8px;
-}
-
-.price {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 17px;
-  color: var(--glass-deep);
-}
-
-.price small {
-  font-family: var(--font-body);
-  font-weight: 400;
-  font-size: 11px;
-  color: var(--muted);
-  display: block;
 }
 
 .row-tags {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
+  flex-wrap: wrap;
   gap: 6px;
+  min-width: 0;
 }
 
-.box-qty {
+.box-qty,
+.sub-tag {
   font-family: var(--font-mono);
   font-size: 11px;
-  color: var(--glass-deep);
-  background: #E9EDFF;
   padding: 3px 7px;
   border-radius: 999px;
   white-space: nowrap;
+}
+
+.box-qty {
+  color: var(--glass-deep);
+  background: #E9EDFF;
+}
+
+.sub-tag {
+  color: #9F3D4A;
+  background: var(--amber-soft);
 }
 
 /* ---------- Empty state ---------- */
@@ -560,7 +534,7 @@ select#sort:focus { border-color: var(--glass); outline: none; }
 .overlay {
   position: fixed;
   inset: 0;
-  background: rgba(47, 48, 53, 0.801);
+  background: rgba(7, 20, 119, 0.52);
   backdrop-filter: blur(2px);
   display: none;
   align-items: center;
@@ -713,12 +687,19 @@ select#sort:focus { border-color: var(--glass); outline: none; }
   .brand-row { margin-bottom: 10px; gap: 8px; }
   .brand-mark { width: 56px; height: 56px; flex-basis: 56px; }
   .brand h1 { font-size: 20px; line-height: 1.1; }
-  .brand-company { font-size: 11.5px; letter-spacing: 0.06em; }
-  .brand .meta { font-size: 12.5px; max-width: 210px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .brand-links { gap: 7px; margin-top: 4px; font-size: 12.5px; }
+  .brand-company { font-size: 9px; letter-spacing: 0.06em; }
+  .brand .meta { font-size: 9px; max-width: 210px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .brand-links { gap: 7px; margin-top: 4px; font-size: 9px; }
   .brand-links a + a::before { margin-right: 7px; }
-  .counter { padding: 5px 8px; font-size: 11px; }
+  .counter { padding: 5px 8px; font-size: 10px; }
   .desc { font-size: 12.5px; }
+  .thumb .promo-tag {
+    top: 31px;
+    right: auto;
+    left: 8px;
+    font-size: 9.5px;
+    padding: 3px 6px;
+  }
 
   .controls { display: grid; grid-template-columns: 42px minmax(0, 1fr); gap: 8px; margin-bottom: 0; width: 100%; }
   .menu-btn {
@@ -738,7 +719,6 @@ select#sort:focus { border-color: var(--glass); outline: none; }
   .menu-btn span { display: block; width: 17px; height: 1.5px; background: var(--ink); }
   .search-wrap { min-width: 0; width: 100%; }
   #search { height: 42px; padding-top: 10px; padding-bottom: 10px; }
-  select#sort { grid-column: 1 / -1; width: 100%; min-width: 0; max-width: 100%; height: 38px; padding-left: 12px; padding-right: 28px; font-size: 12px; background-position: right 12px center; }
 
   .filters-row {
     position: fixed;

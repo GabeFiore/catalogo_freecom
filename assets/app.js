@@ -4,7 +4,7 @@
   const state = { all: [], filtered: [], rendered: 0, pageSize: 48, grupo: "" };
   const el = {
     grid: document.getElementById("grid"), search: document.getElementById("search"),
-    clearBtn: document.getElementById("clear-search"), sort: document.getElementById("sort"),
+    clearBtn: document.getElementById("clear-search"),
     counter: document.getElementById("counter"), empty: document.getElementById("empty"),
     sentinel: document.getElementById("sentinel"), loadingMore: document.getElementById("loading-more"),
     overlay: document.getElementById("overlay"), modalBody: document.getElementById("modal-body"),
@@ -15,11 +15,6 @@
     applyFiltersButton: document.getElementById("apply-filters"),
     clearFiltersButton: document.getElementById("clear-filters"),
   };
-  const BRL = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
-
-  function formatPrice(value) {
-    return value === null || value === undefined || Number.isNaN(Number(value)) ? "—" : BRL.format(Number(value));
-  }
   function formatNumber(value) {
     if (value === null || value === undefined || Number.isNaN(Number(value))) return "—";
     return Number.isInteger(Number(value)) ? String(Number(value)) : String(value).replace(".", ",");
@@ -37,6 +32,10 @@
       : (product.promocao ? [product.promocao] : []);
     return values.some((value) => normalize(value) === "promo geral") ? ["PROMO GERAL"] : [];
   }
+  function getSubReferencia(product) {
+    const match = String(product.descricao || "").match(/\(\s*(SUB[^)]*)\)/i);
+    return match ? match[1].replace(/\s+/g, " ").trim().toUpperCase() : "";
+  }
   function uniqueSorted(values) {
     return [...new Set(values.filter(Boolean).map(String))].sort((a, b) => normalize(a).localeCompare(normalize(b), "pt-BR"));
   }
@@ -50,8 +49,8 @@
       if (el.metaInfo) {
         const date = data.gerado_em ? new Date(data.gerado_em) : null;
         const dateText = date && !Number.isNaN(date.getTime())
-          ? date.toLocaleDateString("pt-BR") : "";
-        el.metaInfo.textContent = `Atualizado em ${dateText}`;
+          ? date.toLocaleDateString("pt-BR") + " às " + date.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" }) : "";
+        el.metaInfo.textContent = `Fonte: ${data.arquivo_origem || "—"} · atualizado em ${dateText}`;
       }
       populateGroups();
       updateSubgroups();
@@ -119,11 +118,7 @@
     });
 
     list = list.slice();
-    switch (el.sort.value) {
-      case "sku": list.sort((a, b) => String(a.sku || "").localeCompare(String(b.sku || ""), "pt-BR")); break;
-      case "preco-asc": list.sort((a, b) => (Number(a.preco) || Infinity) - (Number(b.preco) || Infinity)); break;
-      case "preco-desc": list.sort((a, b) => (Number(b.preco) || -Infinity) - (Number(a.preco) || -Infinity)); break;
-    }
+    list.sort((a, b) => String(a.sku || "").localeCompare(String(b.sku || ""), "pt-BR"));
     state.filtered = list;
     state.rendered = 0;
     el.grid.innerHTML = "";
@@ -134,6 +129,7 @@
 
   function cardTemplate(product) {
     const promotions = getPromocoes(product);
+    const subReferencia = getSubReferencia(product);
     const div = document.createElement("div");
     div.className = "card";
     div.tabIndex = 0;
@@ -141,6 +137,7 @@
     div.setAttribute("aria-label", `${product.sku} — ${product.descricao}`);
     div.dataset.sku = product.sku || "";
     const promotionTag = promotions.length ? `<span class="promo-tag">${escapeHtml(promotions[0])}</span>` : "";
+    const subTag = subReferencia ? `<span class="sub-tag">${escapeHtml(subReferencia)}</span>` : "";
     div.innerHTML = `
       <div class="thumb">
         <span class="sku-tag">${escapeHtml(product.sku)}</span>
@@ -151,8 +148,7 @@
         <div class="categoria">${escapeHtml([product.grupo, product.subgrupo].filter(Boolean).join(" · "))}</div>
         <div class="desc">${escapeHtml(product.descricao)}</div>
         <div class="row-bottom">
-          <div class="price">${formatPrice(product.preco)}<small>unidade</small></div>
-          <div class="row-tags"><span class="box-qty">cx ${formatNumber(product.qtd_por_caixa)}</span></div>
+          <div class="row-tags">${subTag}<span class="box-qty">cx ${formatNumber(product.qtd_por_caixa)}</span></div>
         </div>
       </div>`;
     div.addEventListener("click", () => openModal(product));
@@ -186,7 +182,9 @@
 
   function openModal(product) {
     const promotions = getPromocoes(product);
+    const subReferencia = getSubReferencia(product);
     const promotionTag = promotions.length ? `<span class="promo-tag">${escapeHtml(promotions.join(" · "))}</span>` : "";
+    const subFact = subReferencia ? `<div><div class="fact-label">Referência</div><div class="fact-value">${escapeHtml(subReferencia)}</div></div>` : "";
     el.modalBody.innerHTML = `
       <button class="modal-close" aria-label="Fechar">&times;</button>
       <div class="modal-img">${promotionTag}<img src="${escapeHtml(product.imagem || "")}" alt="${escapeHtml(product.descricao)}" onerror="this.style.opacity=0.15"></div>
@@ -195,8 +193,8 @@
         <div class="modal-breadcrumb">${escapeHtml([product.grupo, product.subgrupo].filter(Boolean).join(" · "))}</div>
         <h2>${escapeHtml(product.descricao)}</h2>
         <div class="modal-facts">
-          <div><div class="fact-label">Preço unitário</div><div class="fact-value accent">${formatPrice(product.preco)}</div></div>
           <div><div class="fact-label">Itens por caixa</div><div class="fact-value">${formatNumber(product.qtd_por_caixa)}</div></div>
+          ${subFact}
         </div>
         <button class="copy-btn" id="copy-sku-btn">Copiar código</button>
       </div>`;
@@ -223,7 +221,6 @@
     debounceTimer = setTimeout(applyFilters, 90);
   });
   el.clearBtn.addEventListener("click", () => { el.search.value = ""; el.clearBtn.classList.remove("visible"); el.search.focus(); applyFilters(); });
-  el.sort.addEventListener("change", applyFilters);
   el.subgrupo.addEventListener("change", applyFilters);
   el.promoCheck.addEventListener("change", applyFilters);
 
@@ -241,7 +238,6 @@
   el.clearFiltersButton.addEventListener("click", () => {
     el.search.value = "";
     el.clearBtn.classList.remove("visible");
-    el.sort.value = "sku";
     el.promoCheck.checked = false;
     state.grupo = "";
     populateGroups();
