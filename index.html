@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo | Freecom Coml Util</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Space+Mono:wght@400;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css?v=20260922">
+</head>
+<body>
+
+<header class="top">
+  <div class="top-inner">
+    <div class="brand-row">
+      <img class="brand-mark" src="assets/logofreecom.png" alt="Freecom">
+      <div class="brand">
+        <div class="brand-company">Freecom Coml Util</div>
+        <h1>Catálogo de produtos</h1>
+        <div class="meta" id="meta-info">Carregando...</div>
+        <div class="brand-links" aria-label="Contato da Freecom">
+          <a href="https://www.instagram.com/freecom_import/" target="_blank" rel="noopener noreferrer">Instagram: @freecom_import</a>
+          <a href="tel:+551133117616">(11) 3311-7616</a>
+        </div>
+      </div>
+      <div class="counter" id="counter">— itens</div>
+    </div>
+
+    <div class="controls">
+      <button class="menu-btn" id="menu-toggle" type="button" aria-label="Abrir filtros" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="search-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="search" placeholder="Buscar por código ou descrição..." autocomplete="off" spellcheck="false">
+        <button class="clear-btn" id="clear-search" aria-label="Limpar busca">&times;</button>
+      </div>
+      <select id="sort" aria-label="Ordenar por">
+        <option value="sku">Ordenar por código</option>
+        <option value="preco-asc">Menor preço</option>
+        <option value="preco-desc">Maior preço</option>
+      </select>
+    </div>
+
+    <div class="filters-row" id="filter-panel" aria-label="Filtros do catálogo">
+      <div class="drawer-title">
+        <span>Filtros</span>
+        <button class="drawer-close" id="filter-close" type="button" aria-label="Fechar filtros">&times;</button>
+      </div>
+      <div class="chips" id="grupo-chips" role="tablist" aria-label="Filtrar por grupo"></div>
+
+      <div class="filters-right">
+        <select id="subgrupo-select" aria-label="Filtrar por subgrupo">
+          <option value="">Todos os subgrupos</option>
+        </select>
+
+        <label class="filter-check">
+          <input type="checkbox" id="promo-check">
+          <span>Somente em promoção</span>
+        </label>
+        <button class="clear-filters-btn" id="clear-filters" type="button">Limpar filtros</button>
+        <button class="apply-filter-btn" id="apply-filters" type="button">Aplicar filtros</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="filter-backdrop" id="filter-backdrop"></div>
+
+<main class="grid-wrap">
+  <div class="grid" id="grid"></div>
+
+  <div class="empty" id="empty">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+    <h2>Nenhum produto encontrado</h2>
+    <p>Tente buscar por outro termo ou remova algum filtro ativo.</p>
+  </div>
+
+  <div class="sentinel" id="sentinel"></div>
+  <div class="loading-more" id="loading-more">carregando mais itens...</div>
+</main>
+
+<div class="overlay" id="overlay">
+  <div class="modal" id="modal-body"></div>
+</div>
+
+<script src="assets/app.js?v=20260922"></script>
+</body>
+</html>
