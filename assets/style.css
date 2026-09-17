@@ -104,7 +104,7 @@ button, input, select { font-family: inherit; }
   margin-bottom: 2px;
   color: var(--glass-deep);
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -121,7 +121,7 @@ button, input, select { font-family: inherit; }
 
 .brand .meta {
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
 }
 
@@ -131,7 +131,7 @@ button, input, select { font-family: inherit; }
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 5px;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
 }
 
@@ -534,7 +534,7 @@ button, input, select { font-family: inherit; }
 .overlay {
   position: fixed;
   inset: 0;
-  background: rgba(7, 20, 119, 0.52);
+  background: rgba(50, 50, 56, 0.808);
   backdrop-filter: blur(2px);
   display: none;
   align-items: center;
@@ -687,16 +687,15 @@ button, input, select { font-family: inherit; }
   .brand-row { margin-bottom: 10px; gap: 8px; }
   .brand-mark { width: 56px; height: 56px; flex-basis: 56px; }
   .brand h1 { font-size: 20px; line-height: 1.1; }
-  .brand-company { font-size: 9px; letter-spacing: 0.06em; }
-  .brand .meta { font-size: 9px; max-width: 210px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .brand-links { gap: 7px; margin-top: 4px; font-size: 9px; }
+  .brand-company { font-size: 11px; letter-spacing: 0.06em; }
+  .brand .meta { font-size: 12.5px; max-width: 210px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .brand-links { gap: 7px; margin-top: 4px; font-size: 12.5px; }
   .brand-links a + a::before { margin-right: 7px; }
   .counter { padding: 5px 8px; font-size: 10px; }
   .desc { font-size: 12.5px; }
   .thumb .promo-tag {
     top: 31px;
     right: auto;
-    left: 8px;
     font-size: 9.5px;
     padding: 3px 6px;
   }

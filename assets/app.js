@@ -49,8 +49,8 @@
       if (el.metaInfo) {
         const date = data.gerado_em ? new Date(data.gerado_em) : null;
         const dateText = date && !Number.isNaN(date.getTime())
-          ? date.toLocaleDateString("pt-BR") + " às " + date.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" }) : "";
-        el.metaInfo.textContent = `Fonte: ${data.arquivo_origem || "—"} · atualizado em ${dateText}`;
+          ? date.toLocaleDateString("pt-BR") : "";
+        el.metaInfo.textContent = `Atualizado em ${dateText}`;
       }
       populateGroups();
       updateSubgroups();
@@ -240,6 +240,7 @@
     el.clearBtn.classList.remove("visible");
     el.promoCheck.checked = false;
     state.grupo = "";
+    el.subgrupo.value = "";
     populateGroups();
     updateSubgroups();
     applyFilters();
