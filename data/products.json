@@ -1,7 +1,7 @@
 {
- "gerado_em": "2026-09-17T11:55:15",
- "arquivo_origem": "CATÁLOGO-160926.xlsx",
- "total_produtos": 898,
+ "gerado_em": "2026-09-17T13:40:08",
+ "arquivo_origem": "CATÁLOGO-170926.xlsx",
+ "total_produtos": 878,
  "produtos": [
   {
    "sku": "03SH5J01",
@@ -63,17 +63,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/17SI3I21.jpg"
-  },
-  {
-   "sku": "1909226",
-   "sku_arquivo": "1909226",
-   "descricao": "1909226 (SUB120) BUQUE DE FOLHAGEM EM PLASTICO 28CM",
-   "qtd_por_caixa": 480.0,
-   "grupo": "DECORACAO",
-   "subgrupo": "FLOR",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/1909226.jpg"
   },
   {
    "sku": "1909232",
@@ -748,17 +737,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/2403413.jpg"
-  },
-  {
-   "sku": "2403414-80",
-   "sku_arquivo": "2403414-80",
-   "descricao": "2403414-80 VASO DECORATIVO DE VIDRO 8,5X6CM",
-   "qtd_por_caixa": 80.0,
-   "grupo": "VIDROS",
-   "subgrupo": "VASO DE VIDRO",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": null
   },
   {
    "sku": "2403664",
@@ -1467,17 +1445,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/2505609.jpg"
-  },
-  {
-   "sku": "2505611",
-   "sku_arquivo": "2505611",
-   "descricao": "2505611 VASO DE VIDRO 19,5X7,5CM",
-   "qtd_por_caixa": 24.0,
-   "grupo": "VIDROS",
-   "subgrupo": "VASO DE VIDRO",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/2505611.jpg"
   },
   {
    "sku": "2505620",
@@ -2490,17 +2457,6 @@
    "imagem": "images/49S59D21.jpg"
   },
   {
-   "sku": "BC2601",
-   "sku_arquivo": "BC2601",
-   "descricao": "BC2601 MOCHILA CONFECCIONADA EM TECIDO DE POLIESTER",
-   "qtd_por_caixa": 50.0,
-   "grupo": "",
-   "subgrupo": "",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": null
-  },
-  {
    "sku": "BM0244",
    "sku_arquivo": "BM0244",
    "descricao": "SH0244GCL JOGO DE COPO DE VIDRO C/6PCS 70ML",
@@ -2734,17 +2690,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/BM1083.jpg"
-  },
-  {
-   "sku": "BM1100",
-   "sku_arquivo": "BM1100",
-   "descricao": "PD1100GCL PETISQUEIRA EM VIDRO 29CM",
-   "qtd_por_caixa": 6.0,
-   "grupo": "VIDROS",
-   "subgrupo": "PRATOS E PETISQUEIRAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM1100.jpg"
   },
   {
    "sku": "BM1103",
@@ -5092,28 +5037,6 @@
    "imagem": "images/F202601.jpg"
   },
   {
-   "sku": "F202605",
-   "sku_arquivo": "F202605",
-   "descricao": "F202605 GARRAFINHA PORTA ESSENCIA DECORATIVA 5ML",
-   "qtd_por_caixa": 396.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": null
-  },
-  {
-   "sku": "F202606",
-   "sku_arquivo": "F202606",
-   "descricao": "F202606 GARRAFINHA PORTA ESSENCIAS DECORATIVA 5ML",
-   "qtd_por_caixa": 396.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": null
-  },
-  {
    "sku": "F202607",
    "sku_arquivo": "F202607",
    "descricao": "F202607 GARRAFINHA PORTA ESSEENCIAS 5ML",
@@ -5390,17 +5313,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F223234.jpg"
-  },
-  {
-   "sku": "F230121-CAP",
-   "sku_arquivo": "F230121-CAP",
-   "descricao": "F230121-CAP TAMPINHA DE MADEIRA",
-   "qtd_por_caixa": 90.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": null
   },
   {
    "sku": "F230705",
@@ -5818,17 +5730,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F241319.jpg"
-  },
-  {
-   "sku": "F241507",
-   "sku_arquivo": "F241507",
-   "descricao": "F241507 JOGO JANTAR COM 20 PEÇAS",
-   "qtd_por_caixa": 2.0,
-   "grupo": "UTILIDADES",
-   "subgrupo": "",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": null
   },
   {
    "sku": "F242505",
@@ -6484,17 +6385,6 @@
    "imagem": "images/F251239.jpg"
   },
   {
-   "sku": "F251240",
-   "sku_arquivo": "F251240",
-   "descricao": "F251240 VALVULA PLASTICA 28/410",
-   "qtd_por_caixa": 1000.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "VALVULA",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/F251240.jpg"
-  },
-  {
    "sku": "F251248",
    "sku_arquivo": "F251248",
    "descricao": "F251248 BANDEJA DE PLASTICO ESPELHADA 22X14X2,8CM",
@@ -6849,17 +6739,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F251647.jpg"
-  },
-  {
-   "sku": "F251648-CAP",
-   "sku_arquivo": "F251648-CAP",
-   "descricao": "F251648-CAP TAMPINHA DE MADEIRA",
-   "qtd_por_caixa": 40.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": null
   },
   {
    "sku": "F251649",
@@ -7332,7 +7211,7 @@
    "subgrupo": "POTES DE ARMAZENAMENTO E MANTEQUEIRAS",
    "promocoes": [],
    "em_promocao": false,
-   "imagem": null
+   "imagem": "images/F261851.jpg"
   },
   {
    "sku": "F261852",
@@ -7343,7 +7222,7 @@
    "subgrupo": "POTES DE ARMAZENAMENTO E MANTEQUEIRAS",
    "promocoes": [],
    "em_promocao": false,
-   "imagem": null
+   "imagem": "images/F261852.jpg"
   },
   {
    "sku": "F261853",
@@ -7354,18 +7233,7 @@
    "subgrupo": "POTES DE ARMAZENAMENTO E MANTEQUEIRAS",
    "promocoes": [],
    "em_promocao": false,
-   "imagem": null
-  },
-  {
-   "sku": "F261901",
-   "sku_arquivo": "F261901",
-   "descricao": "F261901 KIT GANCHO DE PLASTICO C/3 UNIDADES 5.5X7.5CM",
-   "qtd_por_caixa": 160.0,
-   "grupo": "UTILIDADES",
-   "subgrupo": "UTILIDADES",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": null
+   "imagem": "images/F261853.jpg"
   },
   {
    "sku": "F261902",
@@ -8006,17 +7874,6 @@
    "imagem": "images/F262024.jpg"
   },
   {
-   "sku": "FR1375",
-   "sku_arquivo": "FR1375",
-   "descricao": "FR1375 DISPOSITIVO MUSICAL",
-   "qtd_por_caixa": 2000.0,
-   "grupo": "UTILIDADES",
-   "subgrupo": "UTILIDADES",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": null
-  },
-  {
    "sku": "FR190447",
    "sku_arquivo": "FR190447",
    "descricao": "JOGO DE CARTAS DE PAPEL PARA DIVERTIMENTO, EMBALADOS EM CAIXA UNITARIA DE PAPEL = FR190447",
@@ -8059,17 +7916,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/FR95.jpg"
-  },
-  {
-   "sku": "GF0001",
-   "sku_arquivo": "GF0001",
-   "descricao": "GF0001 TAMPA DE MADEIRA",
-   "qtd_por_caixa": 540.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": null
   },
   {
    "sku": "GF193710",
@@ -8316,17 +8162,6 @@
    "imagem": "images/GF5182.jpg"
   },
   {
-   "sku": "GF5192",
-   "sku_arquivo": "GF5192",
-   "descricao": "GF5192 ARTIGO DECORATIVO DE CERAMICA LOVE 11,5X8CM",
-   "qtd_por_caixa": 144.0,
-   "grupo": "DECORACAO",
-   "subgrupo": "FIGURAS CERAMICAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/GF5192.jpg"
-  },
-  {
    "sku": "GF5196",
    "sku_arquivo": "GF5196",
    "descricao": "GF5196 VELA DECORATIVA DE LED 3,5X4CM C/24PCS",
@@ -8395,17 +8230,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/GF5311.jpg"
-  },
-  {
-   "sku": "GF5312",
-   "sku_arquivo": "GF5312",
-   "descricao": "GF5312 RECIPIENTE DECORATIVO DE VIDRO 100ML",
-   "qtd_por_caixa": 70.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/GF5312.jpg"
   },
   {
    "sku": "GF5332",
@@ -8483,17 +8307,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/GF5359-1.jpg"
-  },
-  {
-   "sku": "GF5360-1",
-   "sku_arquivo": "GF5360-1",
-   "descricao": "GF5360-1 FLACONETE DE VIDRO 10ML",
-   "qtd_por_caixa": 125.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": null
   },
   {
    "sku": "GF5361",
@@ -9532,28 +9345,6 @@
    "imagem": "images/GF5718.jpg"
   },
   {
-   "sku": "GF5719",
-   "sku_arquivo": "GF5719",
-   "descricao": "GF5719 ARTIGO DECORATIVO DE VIDRO 50ML",
-   "qtd_por_caixa": 144.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": null
-  },
-  {
-   "sku": "GF5719-CAP",
-   "sku_arquivo": "GF5719-CAP",
-   "descricao": "GF5719-CAP ROLHA",
-   "qtd_por_caixa": 1152.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": null
-  },
-  {
    "sku": "GF5720",
    "sku_arquivo": "GF5720",
    "descricao": "GF5720 RECIPIENTE DECORATIVO DE VIDRO 7.0X8.4CM",
@@ -9695,17 +9486,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/GF5744.jpg"
-  },
-  {
-   "sku": "GF5747",
-   "sku_arquivo": "GF5747",
-   "descricao": "GF5747 RECIPIENTE DECORATIVO DE VIDRO 250ML",
-   "qtd_por_caixa": 35.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": null
   },
   {
    "sku": "GF5748",
