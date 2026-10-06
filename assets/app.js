@@ -12,7 +12,8 @@
     subgrupo: document.getElementById("subgrupo-select"), promoCheck: document.getElementById("promo-check"),
     menuToggle: document.getElementById("menu-toggle"), filterPanel: document.getElementById("filter-panel"),
     filterClose: document.getElementById("filter-close"), filterBackdrop: document.getElementById("filter-backdrop"),
-    applyFiltersButton: document.getElementById("apply-filters"),
+    applyFiltersButton: document.getElementById("apply-filters"), filterBadge: document.getElementById("filter-badge"),
+    top: document.getElementById("top"),
     clearFiltersButton: document.getElementById("clear-filters"),
   };
   function formatNumber(value) {
@@ -124,7 +125,14 @@
     el.grid.innerHTML = "";
     el.counter.innerHTML = `<strong>${list.length}</strong> ${list.length === 1 ? "item" : "itens"}`;
     el.empty.classList.toggle("visible", list.length === 0);
+    updateFilterUi();
     renderNextPage();
+  }
+
+  function updateFilterUi() {
+    const active = (state.grupo ? 1 : 0) + (el.subgrupo.value ? 1 : 0) + (el.promoCheck.checked ? 1 : 0);
+    el.filterBadge.textContent = String(active);
+    el.filterBadge.hidden = active === 0;
   }
 
   function cardTemplate(product) {
@@ -228,7 +236,6 @@
     el.filterPanel.classList.toggle("open", isOpen);
     el.filterBackdrop.classList.toggle("open", isOpen);
     el.menuToggle.setAttribute("aria-expanded", String(isOpen));
-    el.menuToggle.setAttribute("aria-label", isOpen ? "Fechar filtros" : "Abrir filtros");
     document.body.classList.toggle("drawer-open", isOpen);
   }
 
@@ -250,5 +257,22 @@
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && el.filterPanel.classList.contains("open")) setFiltersOpen(false);
   });
+  // Recolhe o bloco da marca ao rolar, deixando só busca e filtros fixos no topo
+  const fullPlaceholder = el.search.placeholder;
+  let compactTicking = false;
+  function updateCompact() {
+    compactTicking = false;
+    const y = window.scrollY;
+    const scrollable = document.documentElement.scrollHeight - window.innerHeight > 400;
+    const compact = el.top.classList.contains("is-compact");
+    if (!compact && y > 120 && scrollable) el.top.classList.add("is-compact");
+    else if (compact && y < 24) el.top.classList.remove("is-compact");
+    const nowCompact = el.top.classList.contains("is-compact");
+    el.search.placeholder = nowCompact && window.innerWidth <= 720 ? "Buscar produto..." : fullPlaceholder;
+  }
+  window.addEventListener("scroll", () => {
+    if (!compactTicking) { compactTicking = true; requestAnimationFrame(updateCompact); }
+  }, { passive: true });
+
   init();
 })();
