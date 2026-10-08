@@ -1,108 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/jpeg" href="assets/logofreecom.png">
-<title>Catálogo | Freecom Coml Util</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Space+Mono:wght@400;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=20261002">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo de produtos Freecom Coml Util: vidros, decoração, essências e utilidades.">
+  <meta name="theme-color" content="#071877">
+  <link rel="icon" type="image/png" href="assets/img/logofreecom.png">
+  <link rel="apple-touch-icon" href="assets/img/logofreecom.png">
+  <title>Catálogo | Freecom Coml Util</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Space+Mono:wght@400;700&family=Public+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css?v=20261008-clean">
 </head>
-<body>
 
-<header class="top" id="top">
-  <div class="top-bar">
-    <div class="top-inner">
-      <div class="brand-collapse">
-        <div class="brand-row">
-          <a class="brand-logo" href="./" aria-label="Freecom Coml Util — início">
-            <img class="brand-wordmark" src="assets/freecom-wordmark.png" alt="Freecom" width="136" height="54">
-          </a>
-          <div class="brand">
-            <div class="brand-company">Freecom Coml Util</div>
-            <h1>Catálogo de produtos</h1>
-            <div class="meta" id="meta-info">Carregando...</div>
-          </div>
-          <nav class="brand-links" aria-label="Contato da Freecom">
-            <a href="https://www.instagram.com/freecom_import/" target="_blank" rel="noopener noreferrer" aria-label="Instagram @freecom_import">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.2" cy="6.8" r="0.6"></circle></svg>
-              <span>@freecom_import</span>
+<body class="v-home">
+
+  <header class="top" id="top">
+    <div class="top-bar">
+      <div class="top-inner">
+        <div class="brand-collapse">
+          <div class="brand-row">
+            <a class="brand-logo" href="./" aria-label="Freecom Coml Util — início">
+              <img class="brand-wordmark" src="assets/img/freecom-wordmark.png" alt="Freecom" width="136" height="54">
             </a>
-            <a href="tel:+551133117616" aria-label="Ligar para (11) 3311-7616">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"></path></svg>
-              <span>(11) 3311-7616</span>
-            </a>
-          </nav>
-        </div>
-      </div>
-
-      <div class="controls">
-        <div class="search-wrap">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-          <input type="text" id="search" placeholder="Buscar por código ou descrição..." autocomplete="off" spellcheck="false" aria-label="Buscar por código ou descrição">
-          <button class="clear-btn" id="clear-search" type="button" aria-label="Limpar busca">&times;</button>
-        </div>
-        <button class="filter-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="filter-panel">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"></path><circle cx="16" cy="7" r="2"></circle><circle cx="8" cy="17" r="2"></circle></svg>
-          <span class="filter-text">Filtrar<span class="filter-more"> produtos</span></span>
-          <span class="filter-badge" id="filter-badge" hidden>0</span>
-        </button>
-        <div class="counter" id="counter" aria-live="polite">— itens</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="filters-band">
-    <div class="filters-row" id="filter-panel" aria-label="Filtros do catálogo">
-      <div class="drawer-title">
-        <span>Filtrar produtos</span>
-        <button class="drawer-close" id="filter-close" type="button" aria-label="Fechar filtros">&times;</button>
-      </div>
-      <div class="filters-body">
-        <div class="filter-group">
-          <span class="filter-label">Grupo</span>
-          <div class="chips" id="grupo-chips" role="tablist" aria-label="Filtrar por grupo"></div>
-        </div>
-        <div class="filters-right">
-          <div class="filter-group">
-            <span class="filter-label">Subgrupo</span>
-            <select id="subgrupo-select" aria-label="Filtrar por subgrupo">
-              <option value="">Todos os subgrupos</option>
-            </select>
+            <div class="brand">
+              <h1>Catálogo de produtos</h1>
+              <div class="meta" id="meta-info">Carregando...</div>
+            </div>
+            <nav class="brand-links" aria-label="Contato da Freecom">
+              <a href="https://www.instagram.com/freecom_import/" target="_blank" rel="noopener noreferrer"
+                aria-label="Instagram @freecom_import">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <circle cx="17.2" cy="6.8" r="0.6"></circle>
+                </svg>
+                <span>@freecom_import</span>
+              </a>
+              <a href="tel:+551133117616" aria-label="Ligar para (11) 3311-7616">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z">
+                  </path>
+                </svg>
+                <span>(11) 3311-7616</span>
+              </a>
+            </nav>
           </div>
-          <label class="filter-check">
-            <input type="checkbox" id="promo-check">
-            <span>Somente em promoção</span>
-          </label>
-          <button class="clear-filters-btn" id="clear-filters" type="button">Limpar filtros</button>
-          <button class="apply-filter-btn" id="apply-filters" type="button">Aplicar filtros</button>
+        </div>
+
+        <div class="list-head">
+          <button class="back-btn" id="back-btn" type="button" aria-label="Voltar ao índice de subgrupos">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M15 5l-7 7 7 7"></path>
+            </svg><span>Início</span>
+          </button>
+          <div class="list-title">
+            <h2 id="list-title"></h2>
+            <div class="counter" id="counter" aria-live="polite"></div>
+          </div>
+        </div>
+        <div class="controls">
+          <div class="search-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="search" placeholder="Buscar por código ou descrição..." autocomplete="off"
+              spellcheck="false" aria-label="Buscar por código ou descrição">
+            <button class="clear-btn" id="clear-search" type="button" aria-label="Limpar busca">&times;</button>
+          </div>
+          <label class="promo-chip"><input type="checkbox" id="promo-check"><span>Promoção</span></label>
         </div>
       </div>
     </div>
+  </header>
+
+  <main class="grid-wrap">
+    <section id="home">
+      <div class="home-intro">
+        <h2>Índice</h2>
+      </div>
+      <div class="sub-grid" id="sub-grid">
+        <div class="sub-skel"></div>
+        <div class="sub-skel"></div>
+        <div class="sub-skel"></div>
+        <div class="sub-skel"></div>
+        <div class="sub-skel"></div>
+        <div class="sub-skel"></div>
+        <div class="sub-skel"></div>
+        <div class="sub-skel"></div>
+      </div>
+    </section>
+
+    <section id="list">
+      <div class="grid" id="grid"></div>
+      <div class="empty" id="empty">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <h2>Nenhum produto encontrado</h2>
+        <p>Tente buscar por outro termo ou desmarque a opção Promoção.</p>
+      </div>
+      <div class="sentinel" id="sentinel"></div>
+      <div class="loading-more" id="loading-more">carregando mais itens...</div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="foot-inner">
+      <img class="foot-logo" src="assets/img/freecom-wordmark.png" alt="Freecom" width="110" height="44">
+      <p class="foot-copy">© 2026 Freecom Coml Util • Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="to-top" type="button" aria-label="Voltar ao topo">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M6 14l6-6 6 6"></path>
+    </svg>
+  </button>
+
+  <div class="overlay" id="overlay">
+    <div class="modal" id="modal-body"></div>
   </div>
-</header>
 
-<div class="filter-backdrop" id="filter-backdrop"></div>
-
-<main class="grid-wrap">
-  <div class="grid" id="grid"></div>
-
-  <div class="empty" id="empty">
-    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-    <h2>Nenhum produto encontrado</h2>
-    <p>Tente buscar por outro termo ou remova algum filtro ativo.</p>
-  </div>
-
-  <div class="sentinel" id="sentinel"></div>
-  <div class="loading-more" id="loading-more">carregando mais itens...</div>
-</main>
-
-<div class="overlay" id="overlay">
-  <div class="modal" id="modal-body"></div>
-</div>
-
-<script src="assets/app.js?v=20261002"></script>
+  <script src="assets/app.js?v=20261008-clean"></script>
 </body>
+
 </html>
