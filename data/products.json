@@ -1,7 +1,7 @@
 {
- "gerado_em": "2026-10-27T09:34:37",
- "arquivo_origem": "CATÁLOGO - 271026.xlsx",
- "total_produtos": 827,
+ "gerado_em": "2026-10-27T14:47:38",
+ "arquivo_origem": "catalogo271026.xlsx",
+ "total_produtos": 833,
  "produtos": [
   {
    "sku": "03SH8I01",
@@ -3861,6 +3861,17 @@
    "imagem": "images/BM9905.jpg"
   },
   {
+   "sku": "BM9907",
+   "sku_arquivo": "BM9907",
+   "descricao": "GL9907GCL JOGO DE XICARA EM VIDRO C/6PCS 230ML",
+   "qtd_por_caixa": 6.0,
+   "grupo": "VIDROS",
+   "subgrupo": "COPOS XICARAS E TACAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/BM9907.jpg"
+  },
+  {
    "sku": "BM995",
    "sku_arquivo": "BM995",
    "descricao": "SG0995GCL JOGO DE CANECA MUG EM VIDRO C/6 PCS 170ML",
@@ -4377,6 +4388,28 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F202601.jpg"
+  },
+  {
+   "sku": "F202605",
+   "sku_arquivo": "F202605",
+   "descricao": "F202605 GARRAFINHA PORTA ESSENCIA DECORATIVA 5ML",
+   "qtd_por_caixa": 396.0,
+   "grupo": "ESSENCIAS",
+   "subgrupo": "ESSENCIAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F202605.jpg"
+  },
+  {
+   "sku": "F202606",
+   "sku_arquivo": "F202606",
+   "descricao": "F202606 GARRAFINHA PORTA ESSENCIAS DECORATIVA 5ML",
+   "qtd_por_caixa": 396.0,
+   "grupo": "ESSENCIAS",
+   "subgrupo": "ESSENCIAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F202606.jpg"
   },
   {
    "sku": "F202607",
@@ -5171,17 +5204,6 @@
    "imagem": "images/F242601.jpg"
   },
   {
-   "sku": "F242602",
-   "sku_arquivo": "F242602",
-   "descricao": "F242602 JOGO DE TACA DE VIDRO C/6PCS 180ML",
-   "qtd_por_caixa": 12.0,
-   "grupo": "VIDROS",
-   "subgrupo": "COPOS XICARAS E TACAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/F242602.jpg"
-  },
-  {
    "sku": "F242620",
    "sku_arquivo": "F242620",
    "descricao": "F242620 VASO DE VIDRO 10X20CM",
@@ -5852,17 +5874,6 @@
    "imagem": "images/F251611.jpg"
   },
   {
-   "sku": "F251619",
-   "sku_arquivo": "F251619",
-   "descricao": "F251619 RECIPIENTE DECORATIVO DE VIDRO 10ML",
-   "qtd_por_caixa": 360.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/F251619.jpg"
-  },
-  {
    "sku": "F251636",
    "sku_arquivo": "F251636",
    "descricao": "F251636 JOGO DE COPO EM VIDRO C/6PCS 300ML",
@@ -6081,6 +6092,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F251669.jpg"
+  },
+  {
+   "sku": "F251672-CAP",
+   "sku_arquivo": "F251672-CAP",
+   "descricao": "F251672-CAP TAMPINHA DE MADEIRA",
+   "qtd_por_caixa": 420.0,
+   "grupo": "ESSENCIAS",
+   "subgrupo": "ESSENCIAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F251672-CAP.jpg"
   },
   {
    "sku": "F251673",
@@ -6367,6 +6389,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F261853.jpg"
+  },
+  {
+   "sku": "F261901",
+   "sku_arquivo": "F261901",
+   "descricao": "F261901 KIT GANCHO DE PLASTICO C/3 UNIDADES 5.5X7.5CM",
+   "qtd_por_caixa": 160.0,
+   "grupo": "UTILIDADES",
+   "subgrupo": "UTILIDADES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F261901.jpg"
   },
   {
    "sku": "F261902",
@@ -7569,6 +7602,17 @@
    "imagem": "images/GF5346.jpg"
   },
   {
+   "sku": "GF5360-1",
+   "sku_arquivo": "GF5360-1",
+   "descricao": "GF5360-1 FLACONETE DE VIDRO 10ML",
+   "qtd_por_caixa": 125.0,
+   "grupo": "ESSENCIAS",
+   "subgrupo": "ESSENCIAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5360-1.jpg"
+  },
+  {
    "sku": "GF5361",
    "sku_arquivo": "GF5361",
    "descricao": "GF5361 FRASCO DE VIDRO 1ML",
@@ -7626,7 +7670,7 @@
   {
    "sku": "GF5385",
    "sku_arquivo": "GF5385",
-   "descricao": "GF5385 (583) FLACONETE DE VIDRO 10ML",
+   "descricao": "GF5385 (583) FLACONETE DE VIDRO 10ML ROSCA 13",
    "qtd_por_caixa": 1749.0,
    "grupo": "ESSENCIAS",
    "subgrupo": "ESSENCIAS",
@@ -8627,6 +8671,17 @@
    "imagem": "images/GF5718.jpg"
   },
   {
+   "sku": "GF5719",
+   "sku_arquivo": "GF5719",
+   "descricao": "GF5719 ARTIGO DECORATIVO DE VIDRO 50ML",
+   "qtd_por_caixa": 144.0,
+   "grupo": "ESSENCIAS",
+   "subgrupo": "ESSENCIAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5719.jpg"
+  },
+  {
    "sku": "GF5720",
    "sku_arquivo": "GF5720",
    "descricao": "GF5720 RECIPIENTE DECORATIVO DE VIDRO 7.0X8.4CM",
@@ -8891,6 +8946,17 @@
    "imagem": "images/GF5744.jpg"
   },
   {
+   "sku": "GF5747",
+   "sku_arquivo": "GF5747",
+   "descricao": "GF5747 RECIPIENTE DECORATIVO DE VIDRO 250ML",
+   "qtd_por_caixa": 35.0,
+   "grupo": "ESSENCIAS",
+   "subgrupo": "ESSENCIAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5747.jpg"
+  },
+  {
    "sku": "GF5748",
    "sku_arquivo": "GF5748",
    "descricao": "GF5748 RECIPIENTE DECORATIVO DE VIDRO 500ML R28",
@@ -8998,7 +9064,7 @@
    "subgrupo": "ESSENCIAS",
    "promocoes": [],
    "em_promocao": false,
-   "imagem": null
+   "imagem": "images/GF5772.jpg"
   },
   {
    "sku": "GF5774",
