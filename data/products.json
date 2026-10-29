@@ -1,34 +1,8 @@
 {
- "gerado_em": "2026-10-27T14:47:38",
- "arquivo_origem": "catalogo271026.xlsx",
- "total_produtos": 833,
+ "gerado_em": "2026-10-29T09:25:40",
+ "arquivo_origem": "CATÁLOGO-291026.xlsx",
+ "total_produtos": 826,
  "produtos": [
-  {
-   "sku": "03SH8I01",
-   "sku_arquivo": "03SH8I01",
-   "descricao": "03SH8I01 COPO DE VIDRO 360ML",
-   "qtd_por_caixa": 24.0,
-   "grupo": "VIDROS",
-   "subgrupo": "COPOS XICARAS E TACAS",
-   "promocoes": [
-    "PROMO GERAL"
-   ],
-   "em_promocao": true,
-   "imagem": "images/03SH8I01.jpg"
-  },
-  {
-   "sku": "03SH9R01",
-   "sku_arquivo": "03SH9R01",
-   "descricao": "03SH9R01 COPO EM VIDRO 430 ML",
-   "qtd_por_caixa": 16.0,
-   "grupo": "VIDROS",
-   "subgrupo": "COPOS XICARAS E TACAS",
-   "promocoes": [
-    "PROMO GERAL"
-   ],
-   "em_promocao": true,
-   "imagem": "images/03SH9R01.jpg"
-  },
   {
    "sku": "1909249",
    "sku_arquivo": "1909249",
@@ -39,17 +13,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/1909249.jpg"
-  },
-  {
-   "sku": "1909255",
-   "sku_arquivo": "1909255",
-   "descricao": "1909255 (SUB300/100) BUQUE DE ORQUIDEA  ARTIFICIAL 30CM",
-   "qtd_por_caixa": 600.0,
-   "grupo": "DECORACAO",
-   "subgrupo": "FLORES",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/1909255.jpg"
   },
   {
    "sku": "1909260",
@@ -817,17 +780,6 @@
    "imagem": "images/2407847.jpg"
   },
   {
-   "sku": "2407849",
-   "sku_arquivo": "2407849",
-   "descricao": "2407849 FLOR ARTIFICIAL EM PLASTICO 30CM",
-   "qtd_por_caixa": 400.0,
-   "grupo": "DECORACAO",
-   "subgrupo": "FLORES",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/2407849.jpg"
-  },
-  {
    "sku": "2407850",
    "sku_arquivo": "2407850",
    "descricao": "2407850 FLOR ARTIFICIAL DE PLASTICO 30CM",
@@ -938,6 +890,17 @@
    "imagem": "images/2408473.jpg"
   },
   {
+   "sku": "2409084",
+   "sku_arquivo": "2409084",
+   "descricao": "2409084 FRASCO DE VIDRO PARA PERFUME 30ML",
+   "qtd_por_caixa": 176.0,
+   "grupo": "ESSENCIAS",
+   "subgrupo": "ESSENCIAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/2409084.jpg"
+  },
+  {
    "sku": "2409084(168)",
    "sku_arquivo": "2409084_168_",
    "descricao": "2409084(168) FRASCO DE VIDRO PARA PERFUME 30ML",
@@ -1024,17 +987,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/2503059.jpg"
-  },
-  {
-   "sku": "2503081",
-   "sku_arquivo": "2503081",
-   "descricao": "2503081 (SUB200) FLOR ARTIFICIAL PLASTICO 32CM",
-   "qtd_por_caixa": 600.0,
-   "grupo": "DECORACAO",
-   "subgrupo": "FLORES",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/2503081.jpg"
   },
   {
    "sku": "2503121",
@@ -1233,28 +1185,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/2505507.jpg"
-  },
-  {
-   "sku": "2505603",
-   "sku_arquivo": "2505603",
-   "descricao": "2505603 VASO DE VIDRO 19,5X9CM",
-   "qtd_por_caixa": 36.0,
-   "grupo": "VIDROS",
-   "subgrupo": "VASOS DE VIDRO",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/2505603.jpg"
-  },
-  {
-   "sku": "2505604",
-   "sku_arquivo": "2505604",
-   "descricao": "2505604 VASO DE VIDRO 19X9CM",
-   "qtd_por_caixa": 36.0,
-   "grupo": "VIDROS",
-   "subgrupo": "VASOS DE VIDRO",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/2505604.jpg"
   },
   {
    "sku": "2505609",
@@ -1766,6 +1696,17 @@
    "imagem": "images/2604011.jpg"
   },
   {
+   "sku": "2604012",
+   "sku_arquivo": "2604012",
+   "descricao": "2604012 VASO DE PLASTICO 33X9CM",
+   "qtd_por_caixa": 70.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "VASOS DE PLASTICO",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/2604012.jpg"
+  },
+  {
    "sku": "2604013",
    "sku_arquivo": "2604013",
    "descricao": "2604013 VASO DE PLASTICO 34X7CM",
@@ -2190,17 +2131,6 @@
    "imagem": "images/2604993.jpg"
   },
   {
-   "sku": "46SJ9P01",
-   "sku_arquivo": "46SJ9P01",
-   "descricao": "46SJ9P01 CANECA EM VIDRO 500ML",
-   "qtd_por_caixa": 18.0,
-   "grupo": "VIDROS",
-   "subgrupo": "COPOS XICARAS E TACAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/46SJ9P01.jpg"
-  },
-  {
    "sku": "49S59D21",
    "sku_arquivo": "49S59D21",
    "descricao": "49S59D21 FRUTEIRA EM VIDRO 1,3L",
@@ -2221,17 +2151,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/BM0244.jpg"
-  },
-  {
-   "sku": "BM0313",
-   "sku_arquivo": "BM0313",
-   "descricao": "TS0313GCL JOGO DE  XICARA EM VIDRO C/PIRES 260ML",
-   "qtd_por_caixa": 8.0,
-   "grupo": "VIDROS",
-   "subgrupo": "COPOS XICARAS E TACAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM0313.jpg"
   },
   {
    "sku": "BM0558",
@@ -2344,17 +2263,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/BM0890.jpg"
-  },
-  {
-   "sku": "BM0893",
-   "sku_arquivo": "BM0893",
-   "descricao": "PR0893BCL JARRA EM VIDRO 1,5 LITRO",
-   "qtd_por_caixa": 6.0,
-   "grupo": "VIDROS",
-   "subgrupo": "JARRAS E GARRAFAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM0893.jpg"
   },
   {
    "sku": "BM0901",
@@ -2975,17 +2883,6 @@
    "imagem": "images/BM7110.jpg"
   },
   {
-   "sku": "BM7114",
-   "sku_arquivo": "BM7114",
-   "descricao": "BL7114GCL JOGO DE BOWL EM VIDRO C/6PCS 300ML",
-   "qtd_por_caixa": 8.0,
-   "grupo": "VIDROS",
-   "subgrupo": "BOWLS SALADEIRAS TRAVESSAS E MOLHEIRAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM7114.jpg"
-  },
-  {
    "sku": "BM7116",
    "sku_arquivo": "BM7116",
    "descricao": "SR7116GCL BOMBONIERE EM VIDRO 250ML",
@@ -3252,28 +3149,6 @@
    "imagem": "images/BM7317.jpg"
   },
   {
-   "sku": "BM7320",
-   "sku_arquivo": "BM7320",
-   "descricao": "BL7320GCL JOGO DE BOWL EM VIDRO C/6PCS 290ML",
-   "qtd_por_caixa": 8.0,
-   "grupo": "VIDROS",
-   "subgrupo": "BOWLS SALADEIRAS TRAVESSAS E MOLHEIRAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM7320.jpg"
-  },
-  {
-   "sku": "BM7326",
-   "sku_arquivo": "BM7326",
-   "descricao": "BL7326GCL JOGO DE BOWL EM VIDRO 350ML C/6PCS",
-   "qtd_por_caixa": 8.0,
-   "grupo": "VIDROS",
-   "subgrupo": "BOWLS SALADEIRAS TRAVESSAS E MOLHEIRAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM7326.jpg"
-  },
-  {
    "sku": "BM7332",
    "sku_arquivo": "BM7332",
    "descricao": "BL7332BCL BOWL EM VIDRO 200ML",
@@ -3426,17 +3301,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/BM7380.jpg"
-  },
-  {
-   "sku": "BM7407",
-   "sku_arquivo": "BM7407",
-   "descricao": "IC7407GCL JOGO DE BOWL EM VIDRO 160ML C/6PCS",
-   "qtd_por_caixa": 4.0,
-   "grupo": "VIDROS",
-   "subgrupo": "BOWLS SALADEIRAS TRAVESSAS E MOLHEIRAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM7407.jpg"
   },
   {
    "sku": "BM7409",
@@ -3652,28 +3516,6 @@
    "imagem": "images/BM9010.jpg"
   },
   {
-   "sku": "BM9014",
-   "sku_arquivo": "BM9014",
-   "descricao": "SG9014GCL JOGO DE XICARA EM VIDRO C/6PCS 187ML",
-   "qtd_por_caixa": 6.0,
-   "grupo": "VIDROS",
-   "subgrupo": "COPOS XICARAS E TACAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM9014.jpg"
-  },
-  {
-   "sku": "BM9018",
-   "sku_arquivo": "BM9018",
-   "descricao": "GL9018GCL JOGO DE XICARA EM VIDRO 220ML C/6PCS",
-   "qtd_por_caixa": 6.0,
-   "grupo": "VIDROS",
-   "subgrupo": "COPOS XICARAS E TACAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM9018.jpg"
-  },
-  {
    "sku": "BM9021AVU",
    "sku_arquivo": "BM9021AVU",
    "descricao": "MG9021BCL XICARA EM VIDRO 440ML",
@@ -3683,28 +3525,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/BM9021AVU.jpg"
-  },
-  {
-   "sku": "BM9030",
-   "sku_arquivo": "BM9030",
-   "descricao": "CP9030GCL JOGO DE XICARAS EM VIDRO C/6 PCS 145ML",
-   "qtd_por_caixa": 6.0,
-   "grupo": "VIDROS",
-   "subgrupo": "COPOS XICARAS E TACAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM9030.jpg"
-  },
-  {
-   "sku": "BM9061",
-   "sku_arquivo": "BM9061",
-   "descricao": "SG9061GCL JOGO DE COPO DE VIDRO C/6PCS 210ML",
-   "qtd_por_caixa": 6.0,
-   "grupo": "VIDROS",
-   "subgrupo": "COPOS XICARAS E TACAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM9061.jpg"
   },
   {
    "sku": "BM9074",
@@ -3727,17 +3547,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/BM9083.jpg"
-  },
-  {
-   "sku": "BM9097",
-   "sku_arquivo": "BM9097",
-   "descricao": "CP9097GCL JOGO DE XICARA EM VIDRO 200ML C/6PCS",
-   "qtd_por_caixa": 6.0,
-   "grupo": "VIDROS",
-   "subgrupo": "COPOS XICARAS E TACAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM9097.jpg"
   },
   {
    "sku": "BM9112",
@@ -3828,17 +3637,6 @@
    "imagem": "images/BM9216.jpg"
   },
   {
-   "sku": "BM9300",
-   "sku_arquivo": "BM9300",
-   "descricao": "CP9300GCL JOGO DE XICARA EM VIDRO C/6PCS 80ML",
-   "qtd_por_caixa": 8.0,
-   "grupo": "VIDROS",
-   "subgrupo": "COPOS XICARAS E TACAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM9300.jpg"
-  },
-  {
    "sku": "BM9302",
    "sku_arquivo": "BM9302",
    "descricao": "CP9302GCL JOGO DE XICARA EM VIDRO C/6PCS 170ML",
@@ -3861,17 +3659,6 @@
    "imagem": "images/BM9905.jpg"
   },
   {
-   "sku": "BM9907",
-   "sku_arquivo": "BM9907",
-   "descricao": "GL9907GCL JOGO DE XICARA EM VIDRO C/6PCS 230ML",
-   "qtd_por_caixa": 6.0,
-   "grupo": "VIDROS",
-   "subgrupo": "COPOS XICARAS E TACAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM9907.jpg"
-  },
-  {
    "sku": "BM995",
    "sku_arquivo": "BM995",
    "descricao": "SG0995GCL JOGO DE CANECA MUG EM VIDRO C/6 PCS 170ML",
@@ -3892,6 +3679,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F121420.jpg"
+  },
+  {
+   "sku": "F140108",
+   "sku_arquivo": "F140108",
+   "descricao": "F140108 COPO P/ PINGA EM VIDRO C/12 PC 50ML",
+   "qtd_por_caixa": 24.0,
+   "grupo": "VIDROS",
+   "subgrupo": "COPOS XICARAS E TACAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F140108.jpg"
   },
   {
    "sku": "F140505",
@@ -3991,6 +3789,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F161220.jpg"
+  },
+  {
+   "sku": "F161411",
+   "sku_arquivo": "F161411",
+   "descricao": "F161411 GATILHO BORRIFADOR DE PLASTICO ROSCA 28",
+   "qtd_por_caixa": 500.0,
+   "grupo": "ESSENCIAS",
+   "subgrupo": "VALVULAS E TAMPAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F161411.jpg"
   },
   {
    "sku": "F161413/1",
@@ -4723,17 +4532,6 @@
    "imagem": "images/F230716-2PRAT.jpg"
   },
   {
-   "sku": "F230806",
-   "sku_arquivo": "F230806",
-   "descricao": "F230806 ESPELHO EM VIDRO COM MOLDURA EM PLASTICO 32CM",
-   "qtd_por_caixa": 18.0,
-   "grupo": "DECORACAO",
-   "subgrupo": "ESPELHOS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/F230806.jpg"
-  },
-  {
    "sku": "F231109",
    "sku_arquivo": "F231109",
    "descricao": "F231109 ARTIGO DECORATIVO DE VIDRO 25ML 5X2,5CM",
@@ -4802,6 +4600,28 @@
    ],
    "em_promocao": true,
    "imagem": "images/F231337.jpg"
+  },
+  {
+   "sku": "F232397",
+   "sku_arquivo": "F232397",
+   "descricao": "F232397 TAMPA SPRAY DE PLASTICO 18/410 DOURADA",
+   "qtd_por_caixa": 1000.0,
+   "grupo": "ESSENCIAS",
+   "subgrupo": "VALVULAS E TAMPAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F232397.jpg"
+  },
+  {
+   "sku": "F232398",
+   "sku_arquivo": "F232398",
+   "descricao": "F232398 TAMPA DE PLASTICO SPRAY PRATA 18/410",
+   "qtd_por_caixa": 1000.0,
+   "grupo": "ESSENCIAS",
+   "subgrupo": "VALVULAS E TAMPAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F232398.jpg"
   },
   {
    "sku": "F232427",
@@ -5692,19 +5512,6 @@
    "imagem": "images/F251322.jpg"
   },
   {
-   "sku": "F251327",
-   "sku_arquivo": "F251327",
-   "descricao": "F251327 C/1000 VARETA PARA DIFUSOR 20X0,3CM",
-   "qtd_por_caixa": 21.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [
-    "PROMO GERAL"
-   ],
-   "em_promocao": true,
-   "imagem": "images/F251327.jpg"
-  },
-  {
    "sku": "F251402",
    "sku_arquivo": "F251402",
    "descricao": "F251402 BANDEJA DE VIDRO 27.5X14X2.5CM",
@@ -6457,17 +6264,6 @@
    "imagem": "images/F261913.jpg"
   },
   {
-   "sku": "F261914",
-   "sku_arquivo": "F261914",
-   "descricao": "F261914 KIT PORTA SABONETE DE PLASTICO C/3 UNIDADES",
-   "qtd_por_caixa": 120.0,
-   "grupo": "UTILIDADES",
-   "subgrupo": "UTILIDADES",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/F261914.jpg"
-  },
-  {
    "sku": "F261915",
    "sku_arquivo": "F261915",
    "descricao": "F261915 KIT PORTA SABONETE DE PLASTICO C/3 UNIDADES",
@@ -6589,28 +6385,6 @@
    "imagem": "images/F261942.jpg"
   },
   {
-   "sku": "F261943",
-   "sku_arquivo": "F261943",
-   "descricao": "F261943 SACOLA PLASTICA 16X8X18.5CM",
-   "qtd_por_caixa": 600.0,
-   "grupo": "UTILIDADES",
-   "subgrupo": "SACOLAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/F261943.jpg"
-  },
-  {
-   "sku": "F261944",
-   "sku_arquivo": "F261944",
-   "descricao": "F261944 SACOLA PLASTICA 20X10X22.5CM",
-   "qtd_por_caixa": 480.0,
-   "grupo": "UTILIDADES",
-   "subgrupo": "SACOLAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/F261944.jpg"
-  },
-  {
    "sku": "F261945",
    "sku_arquivo": "F261945",
    "descricao": "F261945 SACOLA PLASTICA 13X15X6CM",
@@ -6653,6 +6427,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F261948.jpg"
+  },
+  {
+   "sku": "F261951",
+   "sku_arquivo": "F261951",
+   "descricao": "F261951 SACOLA PLASTICA 15X16X7CM",
+   "qtd_por_caixa": 1250.0,
+   "grupo": "UTILIDADES",
+   "subgrupo": "SACOLAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F261951.jpg"
   },
   {
    "sku": "F261952",
@@ -6954,7 +6739,7 @@
    "descricao": "F262015 KIT C/3 CESTOS EM BAMBU 25X25X12/20X20X10/15X15X8CM",
    "qtd_por_caixa": 36.0,
    "grupo": "DECORACAO",
-   "subgrupo": "UTILIDADES",
+   "subgrupo": "DECORACOES",
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F262015.jpg"
@@ -7103,6 +6888,17 @@
    "imagem": "images/F262033.jpg"
   },
   {
+   "sku": "F262034",
+   "sku_arquivo": "F262034",
+   "descricao": "F262034 ARTIGO DECORATIVO DE MADEIRA FAMILIA 20X9X3.8CM",
+   "qtd_por_caixa": 96.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "DECORACOES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262034.jpg"
+  },
+  {
    "sku": "F262035",
    "sku_arquivo": "F262035",
    "descricao": "F262035 ARTIGO DECORATIVO DE MADEIRA 20X9X3.8CM FE",
@@ -7125,6 +6921,94 @@
    "imagem": "images/F262036.jpg"
   },
   {
+   "sku": "F262037",
+   "sku_arquivo": "F262037",
+   "descricao": "F262037 ARTIGO DECORATIVO DE MADEIRA 20X9X3.8CM LOVE",
+   "qtd_por_caixa": 96.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "DECORACOES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262037.jpg"
+  },
+  {
+   "sku": "F262038",
+   "sku_arquivo": "F262038",
+   "descricao": "F262038 ARTIGO DECORATIVO DE MADEIRA 20X9X3.8CM GRATIDAO",
+   "qtd_por_caixa": 96.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "DECORACOES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262038.jpg"
+  },
+  {
+   "sku": "F262039",
+   "sku_arquivo": "F262039",
+   "descricao": "F262039 ARTIGO DECORATIVO DE MADEIRA 20X9X3.8CM FELICIDADE",
+   "qtd_por_caixa": 96.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "DECORACOES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262039.jpg"
+  },
+  {
+   "sku": "F262040",
+   "sku_arquivo": "F262040",
+   "descricao": "F262040 ARTIGO DECORATIVO DE MADEIRA 20X9X3.9CM DEUS",
+   "qtd_por_caixa": 96.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "DECORACOES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262040.jpg"
+  },
+  {
+   "sku": "F262041",
+   "sku_arquivo": "F262041",
+   "descricao": "F262041 ARTIGO DECORATIVO DE MADEIRA 30X12CM DEUS",
+   "qtd_por_caixa": 144.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "DECORACOES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262041.jpg"
+  },
+  {
+   "sku": "F262044",
+   "sku_arquivo": "F262044",
+   "descricao": "F262044 ARTIGO DECORATIVO DE MADEIRA 30X12CM SONHOS",
+   "qtd_por_caixa": 144.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "DECORACOES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262044.jpg"
+  },
+  {
+   "sku": "F262045",
+   "sku_arquivo": "F262045",
+   "descricao": "F262045 ARTIGO DECORATIVO DE MADEIRA 30X12CM JESUS",
+   "qtd_por_caixa": 144.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "DECORACOES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262045.jpg"
+  },
+  {
+   "sku": "F262046",
+   "sku_arquivo": "F262046",
+   "descricao": "F262046 ARTIGO DECORATIVO DE MADEIRA 30X12CM FAMILIA",
+   "qtd_por_caixa": 144.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "DECORACOES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262046.jpg"
+  },
+  {
    "sku": "F262047",
    "sku_arquivo": "F262047",
    "descricao": "F262047 ARTIGO DECORATIVO DE MADEIRA 20X9X3.8CM FE",
@@ -7134,6 +7018,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F262047.jpg"
+  },
+  {
+   "sku": "F262048",
+   "sku_arquivo": "F262048",
+   "descricao": "F262048 ARTIGO DECORATIVO DE MADEIRA 30X12CM FELICIDADE",
+   "qtd_por_caixa": 144.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "DECORACOES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262048.jpg"
   },
   {
    "sku": "F262049",
@@ -7158,6 +7053,17 @@
    "imagem": "images/F262132.jpg"
   },
   {
+   "sku": "F262133",
+   "sku_arquivo": "F262133",
+   "descricao": "F262133 KIT GANCHO C/3PCS DE PLASTICO 5X7CM",
+   "qtd_por_caixa": 200.0,
+   "grupo": "UTILIDADES",
+   "subgrupo": "UTILIDADES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262133.jpg"
+  },
+  {
    "sku": "F262134",
    "sku_arquivo": "F262134",
    "descricao": "F262134 KIT GANCHO C/3PCS DE PLASTICO 5X7CM",
@@ -7167,6 +7073,39 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F262134.jpg"
+  },
+  {
+   "sku": "F262135",
+   "sku_arquivo": "F262135",
+   "descricao": "F262135 BANDEJA DE METAL ESPELHADA 27X14X2CM",
+   "qtd_por_caixa": 60.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "BANDEJAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262135.jpg"
+  },
+  {
+   "sku": "F262136",
+   "sku_arquivo": "F262136",
+   "descricao": "F262136 BANDEJA DE METAL ESPELHADA 27X14.2CM",
+   "qtd_por_caixa": 60.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "BANDEJAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262136.jpg"
+  },
+  {
+   "sku": "F262137",
+   "sku_arquivo": "F262137",
+   "descricao": "F262137 BANDEJA DE METAL ESPELHADA 27X14X4.5CM",
+   "qtd_por_caixa": 60.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "BANDEJAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262137.jpg"
   },
   {
    "sku": "F262138",
@@ -7235,6 +7174,17 @@
    "imagem": "images/F262143.jpg"
   },
   {
+   "sku": "F262145",
+   "sku_arquivo": "F262145",
+   "descricao": "F262145 VASO DE PLASTICO 10X25CM",
+   "qtd_por_caixa": 72.0,
+   "grupo": "DECORACAO",
+   "subgrupo": "VASOS DE PLASTICO",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262145.jpg"
+  },
+  {
    "sku": "F262156",
    "sku_arquivo": "F262156",
    "descricao": "F262156 JOGO AMERICANO DE PLASTICO 38CM PCTE C/12 PRATA/OURO",
@@ -7255,6 +7205,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F262163.jpg"
+  },
+  {
+   "sku": "F262174",
+   "sku_arquivo": "F262174",
+   "descricao": "F262174 KIT C/3 PORTA SABONETE DE PLASTICO",
+   "qtd_por_caixa": 120.0,
+   "grupo": "UTILIDADES",
+   "subgrupo": "UTILIDADES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262174.jpg"
   },
   {
    "sku": "FR190447",
@@ -7466,17 +7427,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/GF5146.jpg"
-  },
-  {
-   "sku": "GF5182",
-   "sku_arquivo": "GF5182",
-   "descricao": "GF5182 RECIPIENTE DECORATIVO DE VIDRO 270ML ROSCA 28",
-   "qtd_por_caixa": 35.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/GF5182.jpg"
   },
   {
    "sku": "GF5196",
@@ -8121,6 +8071,17 @@
    "imagem": "images/GF5543.jpg"
   },
   {
+   "sku": "GF5552",
+   "sku_arquivo": "GF5552",
+   "descricao": "GF5552 FRASCO DE PLASTICO 50ML",
+   "qtd_por_caixa": 500.0,
+   "grupo": "ESSENCIAS",
+   "subgrupo": "ESSENCIAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5552.jpg"
+  },
+  {
    "sku": "GF5556",
    "sku_arquivo": "GF5556",
    "descricao": "GF5556 ARTIGO DECORATIVO DE VIDRO 120ML ROSCA 28",
@@ -8141,17 +8102,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/GF5558.jpg"
-  },
-  {
-   "sku": "GF5567",
-   "sku_arquivo": "GF5567",
-   "descricao": "GF5567 ARTIGO DECORATIVO DE CERAMICA 6X3,5CM",
-   "qtd_por_caixa": 288.0,
-   "grupo": "DECORACAO",
-   "subgrupo": "FIGURAS DE CERAMICA",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/GF5567.jpg"
   },
   {
    "sku": "GF5569",
@@ -8449,17 +8399,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/GF5678.jpg"
-  },
-  {
-   "sku": "GF5688",
-   "sku_arquivo": "GF5688",
-   "descricao": "GF5688 CAIXINHA DE METAL C/TAMPA 230ML",
-   "qtd_por_caixa": 144.0,
-   "grupo": "ESSENCIAS",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/GF5688.jpg"
   },
   {
    "sku": "GF5698",
@@ -8968,17 +8907,6 @@
    "imagem": "images/GF5748.jpg"
   },
   {
-   "sku": "GF5757",
-   "sku_arquivo": "GF5757",
-   "descricao": "GF5757 GARRAFA DE VIDRO 350ML",
-   "qtd_por_caixa": 48.0,
-   "grupo": "VIDROS",
-   "subgrupo": "JARRAS E GARRAFAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/GF5757.jpg"
-  },
-  {
    "sku": "GF5759",
    "sku_arquivo": "GF5759",
    "descricao": "GF5759 RECIPIENTE DECORATIVO DE VIDRO 100ML",
@@ -9265,17 +9193,6 @@
    ],
    "em_promocao": true,
    "imagem": "images/K7625_JK7003.jpg"
-  },
-  {
-   "sku": "MG9021",
-   "sku_arquivo": "MG9021",
-   "descricao": "MG9021BCL CANECA PARA CHOPP EM VIDRO 440ML",
-   "qtd_por_caixa": 16.0,
-   "grupo": "VIDROS",
-   "subgrupo": "COPOS XICARAS E TACAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/MG9021.jpg"
   },
   {
    "sku": "TAMPA22PRATA",
