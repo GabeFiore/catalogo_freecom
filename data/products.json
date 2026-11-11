@@ -1,7 +1,7 @@
 {
- "gerado_em": "2026-11-10T09:22:23-03:00",
- "arquivo_origem": "catalogo1011260905.xlsx",
- "total_produtos": 776,
+ "gerado_em": "2026-11-11T16:12:38-03:00",
+ "arquivo_origem": "catalogo111126.xlsx",
+ "total_produtos": 802,
  "produtos": [
   {
    "sku": "03SH8I01",
@@ -307,6 +307,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/2311738.jpg"
+  },
+  {
+   "sku": "2311742",
+   "sku_arquivo": "2311742",
+   "descricao": "2311742 RECIPIENTE DECORATIVO DE VIDRO 10X7CM",
+   "qtd_por_caixa": 56,
+   "grupo": "",
+   "subgrupo": "ESSENCIAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/2311742.jpg"
   },
   {
    "sku": "2311746",
@@ -707,6 +718,17 @@
    "imagem": "images/2407359.jpg"
   },
   {
+   "sku": "2407371",
+   "sku_arquivo": "2407371",
+   "descricao": "2407371 (SUB100) FLOR ARTIFICIAL EM PLASTICO E TECIDO 30CM",
+   "qtd_por_caixa": 400,
+   "grupo": "",
+   "subgrupo": "FLORES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/2407371.jpg"
+  },
+  {
    "sku": "2407374",
    "sku_arquivo": "2407374",
    "descricao": "2407374 (SUB100) FLOR ARTIFICIAL DE PLASTICO 30CM",
@@ -716,6 +738,28 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/2407374.jpg"
+  },
+  {
+   "sku": "2407376",
+   "sku_arquivo": "2407376",
+   "descricao": "2407376 (SUB100) FLOR ARTIFICIAL EM TECIDO PLASTICO 30CM",
+   "qtd_por_caixa": 400,
+   "grupo": "",
+   "subgrupo": "FLORES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/2407376.jpg"
+  },
+  {
+   "sku": "2407378",
+   "sku_arquivo": "2407378",
+   "descricao": "2407378 (SUB100) FLOR ARTIFICIAL EM PLASTICO E TECIDO 30CM",
+   "qtd_por_caixa": 400,
+   "grupo": "",
+   "subgrupo": "FLORES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/2407378.jpg"
   },
   {
    "sku": "2407843",
@@ -738,17 +782,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/2407844.jpg"
-  },
-  {
-   "sku": "2407847",
-   "sku_arquivo": "2407847",
-   "descricao": "2407847 FLOR ARTIFICIAL EM PLASTICO 30CM",
-   "qtd_por_caixa": 400,
-   "grupo": "",
-   "subgrupo": "FLORES",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/2407847.jpg"
   },
   {
    "sku": "2407850",
@@ -916,17 +949,6 @@
    "imagem": "images/2503053.jpg"
   },
   {
-   "sku": "2503121",
-   "sku_arquivo": "2503121",
-   "descricao": "2503121 (SUB100) FLOR ARTIFICIAL DE PLASTICO 30CM",
-   "qtd_por_caixa": 400,
-   "grupo": "",
-   "subgrupo": "FLORES",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/2503121.jpg"
-  },
-  {
    "sku": "2503125",
    "sku_arquivo": "2503125",
    "descricao": "2503125 (SUB100) FLOR ARTIFICIAL DE PLASTICO 30CM",
@@ -947,6 +969,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/2503132.jpg"
+  },
+  {
+   "sku": "2503165",
+   "sku_arquivo": "2503165",
+   "descricao": "2503165 (SUB100) FLOR ARTIFICIAL DE PLASTICO E TECIDO 30CM",
+   "qtd_por_caixa": 400,
+   "grupo": "",
+   "subgrupo": "FLORES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/2503165.jpg"
   },
   {
    "sku": "2503172",
@@ -1359,17 +1392,6 @@
    "imagem": "images/2510584.jpg"
   },
   {
-   "sku": "2510585",
-   "sku_arquivo": "2510585",
-   "descricao": "2510585 VASO DE VIDRO 14.4X7CM",
-   "qtd_por_caixa": 80,
-   "grupo": "",
-   "subgrupo": "VASOS DE VIDRO",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/2510585.jpg"
-  },
-  {
    "sku": "2510587",
    "sku_arquivo": "2510587",
    "descricao": "2510587 VASO DE VIDRO 12X7CM",
@@ -1425,6 +1447,28 @@
    "imagem": "images/2601153.jpg"
   },
   {
+   "sku": "2601160",
+   "sku_arquivo": "2601160",
+   "descricao": "2601160 RECIPIENTE DECORATIVO DE VIDRO 11CM",
+   "qtd_por_caixa": 72,
+   "grupo": "",
+   "subgrupo": "ESSENCIAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/2601160.jpg"
+  },
+  {
+   "sku": "2601161",
+   "sku_arquivo": "2601161",
+   "descricao": "2601161 RECIPIENTE DECORATIVO DE VIDRO 11.7X8.8CM",
+   "qtd_por_caixa": 72,
+   "grupo": "",
+   "subgrupo": "ESSENCIAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/2601161.jpg"
+  },
+  {
    "sku": "2601165",
    "sku_arquivo": "2601165",
    "descricao": "2601165 RECIPIENTE DECORATIVO DE VIDRO 12.6X9.6CM",
@@ -1456,6 +1500,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/2601168.jpg"
+  },
+  {
+   "sku": "2601169",
+   "sku_arquivo": "2601169",
+   "descricao": "2601169 RECIPIENTE DECORATIVO DE VIDRO 10.5X8.5CM",
+   "qtd_por_caixa": 80,
+   "grupo": "",
+   "subgrupo": "ESSENCIAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/2601169.jpg"
   },
   {
    "sku": "2601171",
@@ -1621,6 +1676,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/2604018.jpg"
+  },
+  {
+   "sku": "2604019",
+   "sku_arquivo": "2604019",
+   "descricao": "2604019 VASO DE PLASTICO 25X8CM",
+   "qtd_por_caixa": 60,
+   "grupo": "",
+   "subgrupo": "VASOS DE PLASTICO",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/2604019.jpg"
   },
   {
    "sku": "2604020",
@@ -2019,7 +2085,7 @@
    "descricao": "SA0700GCL SET DE SALEIROS EM VIDRO C/6PCS",
    "qtd_por_caixa": 8,
    "grupo": "",
-   "subgrupo": "POTES E MANTEIGUEIRAS",
+   "subgrupo": "SALEIROS AZEITEIROS PORTA TALHERES E CINZEIROS",
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/BM0700.jpg"
@@ -2368,17 +2434,6 @@
    "imagem": "images/BM1326.jpg"
   },
   {
-   "sku": "BM1512",
-   "sku_arquivo": "BM1512",
-   "descricao": "DB1512GCL JOGO DE MINI PRATINHOS OVAL  EM VIDRO C/6PCS 80ML",
-   "qtd_por_caixa": 12,
-   "grupo": "",
-   "subgrupo": "PRATOS E PETISQUEIRAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM1512.jpg"
-  },
-  {
    "sku": "BM1600GCL",
    "sku_arquivo": "BM1600GCL",
    "descricao": "CK1600GCL PRATO EM VIDRO 20ML",
@@ -2632,17 +2687,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/BM7105.jpg"
-  },
-  {
-   "sku": "BM7110",
-   "sku_arquivo": "BM7110",
-   "descricao": "CB7110GCL BOMBONIERE EM VIDRO 350 ML",
-   "qtd_por_caixa": 16,
-   "grupo": "",
-   "subgrupo": "BOMBONIERIES",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/BM7110.jpg"
   },
   {
    "sku": "BM7116",
@@ -3052,6 +3096,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/BM7378.jpg"
+  },
+  {
+   "sku": "BM7407",
+   "sku_arquivo": "BM7407",
+   "descricao": "IC7407GCL JOGO DE BOWL EM VIDRO 160ML C/6PCS",
+   "qtd_por_caixa": 4,
+   "grupo": "",
+   "subgrupo": "BOWLS SALADEIRAS TRAVESSAS E MOLHEIRAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/BM7407.jpg"
   },
   {
    "sku": "BM7409",
@@ -3485,6 +3540,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F161220.jpg"
+  },
+  {
+   "sku": "F161317",
+   "sku_arquivo": "F161317",
+   "descricao": "F161317 ORNAMENTO METALICO TORRE 10CM",
+   "qtd_por_caixa": 600,
+   "grupo": "",
+   "subgrupo": "DECORACOES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F161317.jpg"
   },
   {
    "sku": "F161411",
@@ -4272,6 +4338,17 @@
    "imagem": "images/F230716-2PRAT.jpg"
   },
   {
+   "sku": "F230806",
+   "sku_arquivo": "F230806",
+   "descricao": "F230806 ESPELHO EM VIDRO COM MOLDURA EM PLASTICO 32CM",
+   "qtd_por_caixa": 18,
+   "grupo": "",
+   "subgrupo": "ESPELHOS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F230806.jpg"
+  },
+  {
    "sku": "F231109",
    "sku_arquivo": "F231109",
    "descricao": "F231109 ARTIGO DECORATIVO DE VIDRO 25ML 5X2,5CM",
@@ -4641,6 +4718,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F242505.jpg"
+  },
+  {
+   "sku": "F242506",
+   "sku_arquivo": "F242506",
+   "descricao": "F242506 PORTA VELA DE VIDRO 110ML",
+   "qtd_por_caixa": 80,
+   "grupo": "",
+   "subgrupo": "CASTICAIS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F242506.jpg"
   },
   {
    "sku": "F242511",
@@ -5817,6 +5905,17 @@
    "imagem": "images/F261853.jpg"
   },
   {
+   "sku": "F261873",
+   "sku_arquivo": "F261873",
+   "descricao": "F261873 POTE DE VIDRO 6.5X15CM",
+   "qtd_por_caixa": 96,
+   "grupo": "",
+   "subgrupo": "POTES E MANTEIGUEIRAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F261873.jpg"
+  },
+  {
    "sku": "F261901",
    "sku_arquivo": "F261901",
    "descricao": "F261901 KIT GANCHO DE PLASTICO C/3 UNIDADES 5.5X7.5CM",
@@ -6166,17 +6265,6 @@
    "imagem": "images/F261979.jpg"
   },
   {
-   "sku": "F261980",
-   "sku_arquivo": "F261980",
-   "descricao": "F261980 KIT DE PRATO, TALHERES E COPO DE PLASTICO",
-   "qtd_por_caixa": 126,
-   "grupo": "",
-   "subgrupo": "UTILIDADES",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/F261980.jpg"
-  },
-  {
    "sku": "F261981",
    "sku_arquivo": "F261981",
    "descricao": "F261981 PORTA VELA DE VIDRO 7.5X6.5CM",
@@ -6384,17 +6472,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F262034.jpg"
-  },
-  {
-   "sku": "F262035",
-   "sku_arquivo": "F262035",
-   "descricao": "F262035 FE ARTIGO DECORATIVO DE MADEIRA 20X9X3.8CM FE",
-   "qtd_por_caixa": 96,
-   "grupo": "",
-   "subgrupo": "DECORACOES",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/F262035.jpg"
   },
   {
    "sku": "F262037",
@@ -6650,6 +6727,17 @@
    "imagem": "images/F262143.jpg"
   },
   {
+   "sku": "F262144",
+   "sku_arquivo": "F262144",
+   "descricao": "F262144 VASO DE PLASTICO 10X20CM",
+   "qtd_por_caixa": 108,
+   "grupo": "",
+   "subgrupo": "VASOS DE PLASTICO",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262144.jpg"
+  },
+  {
    "sku": "F262145",
    "sku_arquivo": "F262145",
    "descricao": "F262145 VASO DE PLASTICO 10X25CM",
@@ -6659,6 +6747,17 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/F262145.jpg"
+  },
+  {
+   "sku": "F262153",
+   "sku_arquivo": "F262153",
+   "descricao": "F262153 KIT LIMPEZA C/ 2 BUCHAS E 1 ESCOVA",
+   "qtd_por_caixa": 100,
+   "grupo": "",
+   "subgrupo": "UTILIDADES",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/F262153.jpg"
   },
   {
    "sku": "F262163",
@@ -7545,17 +7644,6 @@
    "imagem": "images/GF5543.jpg"
   },
   {
-   "sku": "GF5551",
-   "sku_arquivo": "GF5551",
-   "descricao": "GF5551 FRASCO DE PLASTICO 38ML",
-   "qtd_por_caixa": 500,
-   "grupo": "",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/GF5551.jpg"
-  },
-  {
    "sku": "GF5552",
    "sku_arquivo": "GF5552",
    "descricao": "GF5552 FRASCO DE PLASTICO 50ML",
@@ -7886,6 +7974,17 @@
    "imagem": "images/GF5678.jpg"
   },
   {
+   "sku": "GF5681",
+   "sku_arquivo": "GF5681",
+   "descricao": "GF5681 GARRAFA DE VIDRO PARA  AZEITE 470ML",
+   "qtd_por_caixa": 60,
+   "grupo": "",
+   "subgrupo": "SALEIROS AZEITEIROS PORTA TALHERES E CINZEIROS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5681.jpg"
+  },
+  {
    "sku": "GF5698",
    "sku_arquivo": "GF5698",
    "descricao": "GF5698 RECIPIENTE DECORATIVO DE VIDRO 8ML",
@@ -7906,17 +8005,6 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/GF5699.jpg"
-  },
-  {
-   "sku": "GF5700",
-   "sku_arquivo": "GF5700",
-   "descricao": "GF5700 RECIPIENTE DECORATIVO DE VIDRO",
-   "qtd_por_caixa": 450,
-   "grupo": "",
-   "subgrupo": "ESSENCIAS",
-   "promocoes": [],
-   "em_promocao": false,
-   "imagem": "images/GF5700.jpg"
   },
   {
    "sku": "GF5701",
@@ -8601,6 +8689,94 @@
    "imagem": "images/GF5796.jpg"
   },
   {
+   "sku": "GF5802",
+   "sku_arquivo": "GF5802",
+   "descricao": "GF5802 PORTA SABONETE LIQUIDO DE VIDRO 400ML",
+   "qtd_por_caixa": 48,
+   "grupo": "",
+   "subgrupo": "PORTA SABONETE",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5802.jpg"
+  },
+  {
+   "sku": "GF5803",
+   "sku_arquivo": "GF5803",
+   "descricao": "GF5803 PORTA SABONETE LIQUIDO DE VIDRO 400ML",
+   "qtd_por_caixa": 48,
+   "grupo": "",
+   "subgrupo": "PORTA SABONETE",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5803.jpg"
+  },
+  {
+   "sku": "GF5804",
+   "sku_arquivo": "GF5804",
+   "descricao": "GF5804 PORTA SABONETE LIQUIDO DE VIDRO 400ML",
+   "qtd_por_caixa": 48,
+   "grupo": "",
+   "subgrupo": "PORTA SABONETE",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5804.jpg"
+  },
+  {
+   "sku": "GF5805",
+   "sku_arquivo": "GF5805",
+   "descricao": "GF5805 PORTA SABONETE LIQUIDO DE VIDRO 400ML",
+   "qtd_por_caixa": 48,
+   "grupo": "",
+   "subgrupo": "PORTA SABONETE",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5805.jpg"
+  },
+  {
+   "sku": "GF5806",
+   "sku_arquivo": "GF5806",
+   "descricao": "GF5806 PORTA SABONETE LIQUIDO DE VIDRO 400ML",
+   "qtd_por_caixa": 48,
+   "grupo": "",
+   "subgrupo": "PORTA SABONETE",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5806.jpg"
+  },
+  {
+   "sku": "GF5807",
+   "sku_arquivo": "GF5807",
+   "descricao": "GF5807 PORTA SABONETE LIQUIDO DE VIDRO 400ML",
+   "qtd_por_caixa": 48,
+   "grupo": "",
+   "subgrupo": "PORTA SABONETE",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5807.jpg"
+  },
+  {
+   "sku": "GF5808",
+   "sku_arquivo": "GF5808",
+   "descricao": "GF5808 PORTA SABONETE LIQUIDO DE VIDRO 400ML",
+   "qtd_por_caixa": 48,
+   "grupo": "",
+   "subgrupo": "PORTA SABONETE",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5808.jpg"
+  },
+  {
+   "sku": "GF5809",
+   "sku_arquivo": "GF5809",
+   "descricao": "GF5809 PORTA SABONETE LIQUIDO DE VIDRO 400ML",
+   "qtd_por_caixa": 48,
+   "grupo": "",
+   "subgrupo": "PORTA SABONETE",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5809.jpg"
+  },
+  {
    "sku": "GF5812",
    "sku_arquivo": "GF5812",
    "descricao": "GF5812 POTE DE VIDRO P/SALEIRO E PIMENTEIRO 4.5X10.5XCM 100ML",
@@ -8610,6 +8786,116 @@
    "promocoes": [],
    "em_promocao": false,
    "imagem": "images/GF5812.jpg"
+  },
+  {
+   "sku": "GF5813",
+   "sku_arquivo": "GF5813",
+   "descricao": "GF5813 POTE DE VIDRO 300ML",
+   "qtd_por_caixa": 48,
+   "grupo": "",
+   "subgrupo": "POTES E MANTEIGUEIRAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5813.jpg"
+  },
+  {
+   "sku": "GF5814",
+   "sku_arquivo": "GF5814",
+   "descricao": "GF5814 POTE DE VIDRO 500ML",
+   "qtd_por_caixa": 36,
+   "grupo": "",
+   "subgrupo": "POTES E MANTEIGUEIRAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5814.jpg"
+  },
+  {
+   "sku": "GF5815",
+   "sku_arquivo": "GF5815",
+   "descricao": "GF5815 POTE DE VIDRO 700ML",
+   "qtd_por_caixa": 36,
+   "grupo": "",
+   "subgrupo": "POTES E MANTEIGUEIRAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5815.jpg"
+  },
+  {
+   "sku": "GF5816",
+   "sku_arquivo": "GF5816",
+   "descricao": "GF5816 POTE DE VIDRO 100ML",
+   "qtd_por_caixa": 120,
+   "grupo": "",
+   "subgrupo": "POTES E MANTEIGUEIRAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5816.jpg"
+  },
+  {
+   "sku": "GF5817",
+   "sku_arquivo": "GF5817",
+   "descricao": "GF5817 POTE DE VIDRO 150ML",
+   "qtd_por_caixa": 120,
+   "grupo": "",
+   "subgrupo": "POTES E MANTEIGUEIRAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5817.jpg"
+  },
+  {
+   "sku": "GF5818",
+   "sku_arquivo": "GF5818",
+   "descricao": "GF5818 POTE DE VIDRO 200ML",
+   "qtd_por_caixa": 105,
+   "grupo": "",
+   "subgrupo": "POTES E MANTEIGUEIRAS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5818.jpg"
+  },
+  {
+   "sku": "GF5819",
+   "sku_arquivo": "GF5819",
+   "descricao": "GF5819 AZEITEIRO DE VIDRO 500ML",
+   "qtd_por_caixa": 50,
+   "grupo": "",
+   "subgrupo": "SALEIROS AZEITEIROS PORTA TALHERES E CINZEIROS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5819.jpg"
+  },
+  {
+   "sku": "GF5820",
+   "sku_arquivo": "GF5820",
+   "descricao": "GF5820 AZEITEIRO DE VIDRO 500ML",
+   "qtd_por_caixa": 50,
+   "grupo": "",
+   "subgrupo": "SALEIROS AZEITEIROS PORTA TALHERES E CINZEIROS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5820.jpg"
+  },
+  {
+   "sku": "GF5821",
+   "sku_arquivo": "GF5821",
+   "descricao": "GF5821 AZEITEIRO DE VIDRO 500ML",
+   "qtd_por_caixa": 50,
+   "grupo": "",
+   "subgrupo": "SALEIROS AZEITEIROS PORTA TALHERES E CINZEIROS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5821.jpg"
+  },
+  {
+   "sku": "GF5822",
+   "sku_arquivo": "GF5822",
+   "descricao": "GF5822 AZEITEIRO DE VIDRO 500ML",
+   "qtd_por_caixa": 50,
+   "grupo": "",
+   "subgrupo": "SALEIROS AZEITEIROS PORTA TALHERES E CINZEIROS",
+   "promocoes": [],
+   "em_promocao": false,
+   "imagem": "images/GF5822.jpg"
   },
   {
    "sku": "IC7117GCL",
