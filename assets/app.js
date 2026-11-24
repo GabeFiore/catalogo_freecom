@@ -26,6 +26,23 @@
     title: $("list-title"),
     back: $("back-btn"),
   };
+  const feedbackStyles = document.createElement("style");
+  feedbackStyles.textContent = `
+    .empty-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 16px; }
+    .empty-actions button { min-height: 44px; padding: 8px 14px; border: 1px solid #071477;
+      border-radius: 8px; color: #071477; background: #fff; font-weight: 600; cursor: pointer; }
+    .thumb > .photo-placeholder, .modal-img > .photo-placeholder {
+      display: grid; place-items: center; width: 100%; padding: 16px;
+      color: #3f4655; font-size: 0.875rem; text-align: center; }
+    .thumb > .photo-placeholder { position: absolute; inset: 0; }
+    .modal-img > .photo-placeholder { min-height: 160px; }
+  `;
+  document.head.append(feedbackStyles);
+
+  const emptyActions = document.createElement("div");
+  emptyActions.className = "empty-actions";
+  el.empty.append(emptyActions);
+
   function formatNumber(value) {
     if (value === null || value === undefined || Number.isNaN(Number(value)))
       return "—";
@@ -202,13 +219,20 @@
       : "Catálogo | Freecom Coml Util";
     refresh();
   }
-  function navigate(slug) {
+  function navigate(slug, { query = "", onlyPromo = false } = {}) {
     history.pushState(
       { app: 1 },
       "",
       slug ? "?subgrupo=" + slug : location.pathname,
     );
     route();
+    if (query) {
+      el.search.value = query;
+      el.clearBtn.classList.add("visible");
+      el.promoCheck.checked = onlyPromo;
+      refresh();
+      el.search.focus({ preventScroll: true });
+    }
     window.scrollTo(0, 0);
   }
   window.addEventListener("popstate", () => {
@@ -244,7 +268,7 @@
     const terms = normalize(el.search.value).split(/\s+/).filter(Boolean);
     const listMode = !!state.sub || terms.length > 0;
     document.body.className = listMode ? "v-list" : "v-home";
-    if (typeof syncPlaceholder === "function") syncPlaceholder();
+    syncPlaceholder();
     if (!listMode) return;
     const onlyPromo = el.promoCheck.checked;
     const list = (
@@ -266,10 +290,65 @@
       : "Resultados da busca";
     el.counter.textContent = `${list.length} ${list.length === 1 ? "produto" : "produtos"}`;
     el.empty.classList.toggle("visible", list.length === 0);
+    emptyActions.replaceChildren();
+    if (list.length === 0) updateEmptyState(onlyPromo);
     renderNextPage();
   }
-  function applyFilters() {
-    refresh();
+  function updateEmptyState(onlyPromo) {
+    const query = el.search.value.trim();
+    const scope = state.sub
+      ? `na categoria ${pretty(state.sub.name)}`
+      : "no catálogo";
+    el.empty.querySelector("h2").textContent = "Nenhum produto encontrado";
+    el.empty.querySelector("p").textContent = query
+      ? `Nenhum resultado para “${query}” ${scope}${onlyPromo ? " com o filtro de promoção ativo" : ""}.`
+      : `Nenhum produto ${scope}${onlyPromo ? " está em promoção" : " está disponível"}.`;
+
+    function addAction(label, action) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = label;
+      button.addEventListener("click", action);
+      emptyActions.append(button);
+    }
+    if (state.sub && query) {
+      addAction("Buscar em todo o catálogo", () =>
+        navigate("", { query, onlyPromo }),
+      );
+    }
+    if (onlyPromo) {
+      addAction("Remover filtro de promoção", () => {
+        el.promoCheck.checked = false;
+        el.promoCheck.focus();
+        refresh();
+      });
+    }
+    if (query) {
+      addAction("Limpar busca", () => el.clearBtn.click());
+    }
+  }
+
+  function addProductPhoto(container, product, lazy = false) {
+    function placeholder() {
+      const label = document.createElement("span");
+      label.className = "photo-placeholder";
+      label.textContent = "Foto indisponível";
+      return label;
+    }
+
+    if (!product.imagem?.trim()) {
+      container.append(placeholder());
+      return;
+    }
+
+    const img = document.createElement("img");
+    img.alt = product.descricao || "Foto do produto";
+    if (lazy) img.loading = "lazy";
+    img.addEventListener("error", () => img.replaceWith(placeholder()), {
+      once: true,
+    });
+    container.append(img);
+    img.src = product.imagem;
   }
 
   function cardTemplate(product) {
@@ -291,7 +370,6 @@
       <div class="thumb">
         <span class="sku-tag">${escapeHtml(product.sku)}</span>
         ${promotionTag}
-        <img loading="lazy" src="${escapeHtml(product.imagem || "")}" alt="${escapeHtml(product.descricao)}" onerror="this.style.opacity=0.15">
       </div>
       <div class="body">
         <div class="categoria">${escapeHtml([product.grupo, product.subgrupo].filter(Boolean).join(" · "))}</div>
@@ -300,11 +378,12 @@
           <div class="row-tags">${subTag}<span class="box-qty">cx ${formatNumber(product.qtd_por_caixa)}</span></div>
         </div>
       </div>`;
-    div.addEventListener("click", () => openModal(product));
+    addProductPhoto(div.querySelector(".thumb"), product, true);
+    div.addEventListener("click", () => openModal(product, div));
     div.addEventListener("keydown", (event) => {
       if (event.key === "Enter" || event.key === " ") {
         event.preventDefault();
-        openModal(product);
+        openModal(product, div);
       }
     });
     return div;
@@ -338,7 +417,15 @@
   );
   observer.observe(el.sentinel);
 
-  function openModal(product) {
+  let modalTrigger;
+  let previousOverflow;
+  let inertElements = [];
+  el.modalBody.setAttribute("role", "dialog");
+  el.modalBody.setAttribute("aria-modal", "true");
+  el.modalBody.setAttribute("aria-labelledby", "product-modal-title");
+
+  function openModal(product, trigger) {
+    modalTrigger = trigger;
     const promotions = getPromocoes(product);
     const subReferencia = getSubReferencia(product);
     const promotionTag = promotions.length
@@ -349,22 +436,30 @@
       : "";
     el.modalBody.innerHTML = `
       <button class="modal-close" aria-label="Fechar">&times;</button>
-      <div class="modal-img">${promotionTag}<img src="${escapeHtml(product.imagem || "")}" alt="${escapeHtml(product.descricao)}" onerror="this.style.opacity=0.15"></div>
+      <div class="modal-img">${promotionTag}</div>
       <div class="modal-info">
         <span class="modal-sku">${escapeHtml(product.sku)}</span>
         <div class="modal-breadcrumb">${escapeHtml([product.grupo, product.subgrupo].filter(Boolean).join(" · "))}</div>
-        <h2>${escapeHtml(product.descricao)}</h2>
+        <h2 id="product-modal-title">${escapeHtml(product.descricao)}</h2>
         <div class="modal-facts">
           <div><div class="fact-label">Itens por caixa</div><div class="fact-value">${formatNumber(product.qtd_por_caixa)}</div></div>
           ${subFact}
         </div>
         <button class="copy-btn" id="copy-sku-btn">Copiar código</button>
       </div>`;
+    addProductPhoto(el.modalBody.querySelector(".modal-img"), product);
     el.overlay.classList.add("visible");
+    previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
-    el.modalBody
-      .querySelector(".modal-close")
-      .addEventListener("click", closeModal);
+    const close = el.modalBody.querySelector(".modal-close");
+    close.addEventListener("click", closeModal);
+    close.focus();
+    inertElements = [...document.body.children].filter(
+      (element) => element !== el.overlay && !element.inert,
+    );
+    inertElements.forEach((element) => {
+      element.inert = true;
+    });
     el.modalBody
       .querySelector("#copy-sku-btn")
       .addEventListener("click", async (event) => {
@@ -382,14 +477,37 @@
       });
   }
   function closeModal() {
+    if (!el.overlay.classList.contains("visible")) return;
     el.overlay.classList.remove("visible");
-    document.body.style.overflow = "";
+    document.body.style.overflow = previousOverflow;
+    inertElements.forEach((element) => {
+      element.inert = false;
+    });
+    inertElements = [];
+    const target = modalTrigger?.isConnected ? modalTrigger : el.search;
+    target.focus({ preventScroll: true });
+    modalTrigger = null;
   }
   el.overlay.addEventListener("click", (event) => {
     if (event.target === el.overlay) closeModal();
   });
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") closeModal();
+    if (!el.overlay.classList.contains("visible")) return;
+    if (event.key === "Escape") {
+      event.preventDefault();
+      closeModal();
+    } else if (event.key === "Tab") {
+      const controls = el.modalBody.querySelectorAll("button:not([disabled])");
+      const first = controls[0];
+      const last = controls[controls.length - 1];
+      if (
+        !el.modalBody.contains(document.activeElement) ||
+        document.activeElement === (event.shiftKey ? first : last)
+      ) {
+        event.preventDefault();
+        (event.shiftKey ? last : first).focus();
+      }
+    }
   });
 
   let debounceTimer;
@@ -442,7 +560,15 @@
       window.innerWidth <= 720 &&
       (document.body.classList.contains("v-list") ||
         topEl.classList.contains("is-compact"));
-    el.search.placeholder = short ? "Buscar produto..." : fullPlaceholder;
+    const scope = state.sub
+      ? `Buscar em ${pretty(state.sub.name)}`
+      : "Buscar em todo o catálogo";
+    el.search.placeholder = state.sub
+      ? scope
+      : short
+        ? "Buscar no catálogo"
+        : fullPlaceholder;
+    el.search.setAttribute("aria-label", scope + " por código ou descrição");
   }
   window.addEventListener("scroll", requestCompactUpdate, { passive: true });
 
