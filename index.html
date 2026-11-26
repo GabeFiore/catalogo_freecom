@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="description" content="Catálogo de produtos Freecom Coml Util: vidros, decoração, essências e utilidades.">
   <meta name="theme-color" content="#071877">
   <link rel="icon" type="image/png" href="assets/img/logofreecom.png">
@@ -14,7 +14,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Space+Mono:wght@400;700&family=Public+Sans:wght@400;500;600&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=20261008-clean">
+  <link rel="stylesheet" href="assets/style.css?v=20261126-tipografia">
 </head>
 
 <body class="v-home">
@@ -75,15 +75,27 @@
             <button class="clear-btn" id="clear-search" type="button" aria-label="Limpar busca">&times;</button>
           </div>
           <label class="promo-chip"><input type="checkbox" id="promo-check"><span>Promoção</span></label>
+          <button class="quote-trigger" id="quote-trigger" type="button" aria-haspopup="dialog">
+            Montar cotação
+          </button>
         </div>
       </div>
     </div>
   </header>
 
+  <div class="mobile-quote" id="mobile-quote" hidden>
+    <button class="mobile-quote-btn" id="mobile-quote-trigger" type="button" aria-haspopup="dialog">
+      Ver cotação <span aria-hidden="true">·</span> <span id="mobile-quote-count"></span>
+    </button>
+  </div>
+
   <main class="grid-wrap">
     <section id="home">
       <div class="home-intro">
         <h2>Índice</h2>
+        <button class="mobile-quote-start" id="mobile-quote-start" type="button" aria-haspopup="dialog" hidden>
+          Montar cotação
+        </button>
       </div>
       <div class="sub-grid" id="sub-grid">
         <div class="sub-skel"></div>
@@ -126,10 +138,11 @@
   </button>
 
   <div class="overlay" id="overlay">
-    <div class="modal" id="modal-body"></div>
+    <div class="modal" id="modal-body" role="dialog" aria-modal="true" aria-labelledby="modal-title"></div>
   </div>
+  <div class="quote-toast" id="quote-toast" role="status"></div>
 
-  <script src="assets/app.js?v=20261008-clean"></script>
+  <script src="assets/app.js?v=20261126-tipografia"></script>
 </body>
 
 </html>
